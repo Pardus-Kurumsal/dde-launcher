@@ -1,0 +1,25 @@
+
+QFrame#AppBox{
+    background-color: transparent;
+}
+
+QFrame#LauncherFrame[dockPosition='0'] {
+    padding:50px 0 0 0;
+}
+QFrame#LauncherFrame[dockPosition='1'] {
+    padding:0 0 0 0;
+}
+QFrame#LauncherFrame[dockPosition='2'] {
+    padding:0 0 0 0;
+}
+QFrame#LauncherFrame[dockPosition='3'] {
+    padding:0 0 0 80px;
+}
+
+#SearchEdit {
+    background-color:rgba(255, 255, 255, 0.2);
+    padding:0px 20px 0 25px;
+    border:none;
+    border-radius:5px;
+    color:white;
+}
